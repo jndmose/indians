@@ -3,7 +3,7 @@ American Indians vs Indian Americans, statewide population using googleVis
 
 The population of Native Americans in the United States is estimated to be anywhere upto [20 million] (http://en.wikipedia.org/wiki/Native_Americans_in_the_United_States). I wanted to find out what the population of Native Americans (originally referred to as American Indians by immigrants) is and compare it to the number of Indians from India (Indian Americans).
 
-I wanted to do this comparison by county, but the US Census Bureau and other Federal websites are unavailable because of the Goverment shutdown (as of Oct 7 2013). Hence I obtained state-wide totals of American Indians and Indian Americans from several sources and made the below maps using R and googleVis.
+I wanted to do this comparison by county, but the US Census Bureau and other Federal websites are unavailable because of the Government shutdown (as of Oct 7 2013). Hence I obtained state-wide totals of American Indians and Indian Americans from several sources and made the below maps using R and googleVis.
 
 **Data** - 
 * State-wide population of American Indians in 2010 - [wikipedia](http://en.wikipedia.org/wiki/Native_Americans_in_the_United_States)
@@ -78,7 +78,7 @@ plot(chart_2, "chart")
 ```
 
 
-In states with big cities, the number of Indian Americans are more than the American Indians. Moreover, I am not sure whether the statewide totals include or exclude the immigrants who are not citizens of the United States. Also, the spatial patterns at the county resolution are likely going to be different. Only when the Census Bureau websites are back online I can dig into this a little deeper.
+In states with big cities, the number of Indian Americans are more than the American Indians. Moreover, I am not sure whether the statewide totals include or exclude the Indian immigrants who are not citizens of the United States. Also, the spatial patterns at the county resolution are likely going to be different. Only when the Census Bureau websites are back online I can dig into this a little deeper.
 
 Here is the data in a tabluar format.
 
