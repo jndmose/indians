@@ -78,7 +78,7 @@ plot(chart_1, "chart")
 ```
 
 <!-- GeoChart generated in R 3.0.2 by googleVis 0.4.5 package -->
-<!-- Mon Oct 07 11:59:33 2013 -->
+<!-- Sun Oct 20 21:05:11 2013 -->
 
 
 <!-- jsHeader -->
@@ -385,7 +385,7 @@ plot(chart_2, "chart")
 ```
 
 <!-- GeoChart generated in R 3.0.2 by googleVis 0.4.5 package -->
-<!-- Mon Oct 07 11:59:33 2013 -->
+<!-- Sun Oct 20 21:05:11 2013 -->
 
 
 <!-- jsHeader -->
@@ -691,14 +691,14 @@ print(chart_3, "chart")
 ```
 
 <!-- Table generated in R 3.0.2 by googleVis 0.4.5 package -->
-<!-- Mon Oct 07 11:59:33 2013 -->
+<!-- Sun Oct 20 21:05:11 2013 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataTableIDe887873763b () {
+function gvisDataTableID31d06aa139ab () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -1122,13 +1122,13 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartTableIDe887873763b() {
-var data = gvisDataTableIDe887873763b();
+function drawChartTableID31d06aa139ab() {
+var data = gvisDataTableID31d06aa139ab();
 var options = {};
 options["allowHtml"] = true;
 
     var chart = new google.visualization.Table(
-    document.getElementById('TableIDe887873763b')
+    document.getElementById('TableID31d06aa139ab')
     );
     chart.draw(data,options);
     
@@ -1152,9 +1152,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartTableIDe887873763b);
+callbacks.push(drawChartTableID31d06aa139ab);
 })();
-function displayChartTableIDe887873763b() {
+function displayChartTableID31d06aa139ab() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1178,14 +1178,15 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableIDe887873763b"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartTableID31d06aa139ab"></script>
  
 <!-- divChart -->
   
-<div id="TableIDe887873763b"
+<div id="TableID31d06aa139ab"
   style="width: 600px; height: 500px;">
 </div>
 
 
-
 All relevant files are on my [GitHub site](https://github.com/RationShop/indians)
+
+The googleVis visualizations are here - http://rpubs.com/RationShop/indians_americans
